@@ -5051,15 +5051,15 @@ a {
     left: -1rem;
   }
 }
-.cid-u5uykhXasO {
+.cid-u6FeQoH8fA {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: #ffffff;
+  background-color: #fafafa;
 }
-.cid-u5uykhXasO .mbr-fallback-image.disabled {
+.cid-u6FeQoH8fA .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-u5uykhXasO .mbr-fallback-image {
+.cid-u6FeQoH8fA .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -5068,39 +5068,18 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-u5uykhXasO .team-card {
+.cid-u6FeQoH8fA .item:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
-  transition: all 0.3s;
 }
-.cid-u5uykhXasO .team-card:hover {
-  transform: translateY(-10px);
-}
-.cid-u5uykhXasO .item-wrapper {
-  background: #fafafa;
+.cid-u6FeQoH8fA .item-wrapper {
+  background-color: #ffffff;
   border-radius: 4px;
 }
-@media (max-width: 991px) {
-  .cid-u5uykhXasO .item-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-u5uykhXasO .item-wrapper .image-wrap img {
+.cid-u6FeQoH8fA .image-wrapper img {
   width: 100%;
+  object-fit: cover;
 }
-@media (min-width: 768px) {
-  .cid-u5uykhXasO .item-wrapper .content-wrap {
-    padding: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-u5uykhXasO .item-wrapper .content-wrap {
-    padding: 1rem;
-  }
-}
-.cid-u5uykhXasO .social-row {
-  text-align: center;
-}
-.cid-u5uykhXasO .social-row .soc-item {
+.cid-u6FeQoH8fA .social-row .soc-item {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -5110,19 +5089,35 @@ a {
   border: 2px solid #6592e6;
   transition: all 0.3s;
 }
-.cid-u5uykhXasO .social-row .soc-item .mbr-iconfont {
-  transition: all 0.3s;
+.cid-u6FeQoH8fA .social-row .soc-item .mbr-iconfont {
   display: flex;
   justify-content: center;
   align-content: center;
   color: #6592e6;
   font-size: 1.5rem;
+  transition: all 0.3s;
 }
-.cid-u5uykhXasO .social-row .soc-item:hover {
+.cid-u6FeQoH8fA .social-row .soc-item:hover {
   background-color: #6592e6;
 }
-.cid-u5uykhXasO .social-row .soc-item:hover .mbr-iconfont {
+.cid-u6FeQoH8fA .social-row .soc-item:hover .mbr-iconfont {
   color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-u6FeQoH8fA .card-box {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-u6FeQoH8fA .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-u6FeQoH8fA .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
 }
 .cid-u5u5t3h0b5 {
   padding-top: 30px;
